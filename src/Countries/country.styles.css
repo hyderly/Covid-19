@@ -1,0 +1,25 @@
+.country {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.country-box {
+  background-color: #364857;
+  color: #f7f7f7;
+  font-size: 18px;
+  padding: 20px 40px;
+  border-radius: 10px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #f7f7f7;
+}
+
+.text: {
+  margin-right: 3px;
+}

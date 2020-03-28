@@ -1,0 +1,32 @@
+.countries {
+  position: relative;
+}
+
+.countries-box {
+  margin: 100px 20px;
+  color: #364857;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  grid-gap: 6rem;
+  align-items: start;
+}
+
+@media only screen and (max-width: 500px) {
+  .countries-box {
+    margin: 150px 0;
+  }
+}
+
+.search {
+  width: 400px;
+  height: 30px;
+  font-size: 20px;
+  color: 364857;
+  border-radius: 10px;
+  text-align: center;
+  margin-left: 30px;
+}
+
+.search:focus {
+  outline: none;
+}
